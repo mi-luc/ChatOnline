@@ -25,7 +25,7 @@ namespace ChatEntityFramework
         public MainMenu()
         {
             //Legatura cu baza de date Azure MySQL
-            var connectionstring = "Server=tcp:chat-onsrv.database.windows.net,1433;Initial Catalog=chat-db;Persist Security Info=False;User ID=admin-db;Password=Luca2001;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            var connectionstring = "";
             SqlConnection connection = new SqlConnection(connectionstring);
             
             connection.Open();
