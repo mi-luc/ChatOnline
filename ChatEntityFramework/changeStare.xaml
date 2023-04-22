@@ -1,0 +1,42 @@
+﻿<Window x:Class="ChatEntityFramework.changeStare"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatEntityFramework"
+        mc:Ignorable="d"
+        Title="changeStare" Height="100" Width="350">
+    <Grid Margin="0,0,3.6,-1">
+        <Grid.Background>
+            <ImageBrush ImageSource="/mainMenu_Wallpaper.jpg"/>
+        </Grid.Background>
+        <StackPanel Margin="10">
+            <ComboBox Name="State" Text="Choose status"  Background="#FF4D4B4B" BorderBrush="#FF4D4B4B" OpacityMask="Black" SelectionChanged="State_SelectionChanged">
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="red_bullet30.png" Margin="140, 0, 0, 0"/>
+                        <TextBlock x:Name="Busy" Foreground="Red">Busy</TextBlock>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="green_bullet30.png" Margin="140, 0, 0, 0" />
+                        <TextBlock x:Name="Online" Foreground="Green">Online</TextBlock>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/gray_bullet10.png" Margin="140, 0, 0, 0"/>
+                        <TextBlock x:Name="Offline" Foreground="Gray">Offline</TextBlock>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="orange_bullet.png" Margin="140, 0, 0, 0"/>
+                        <TextBlock x:Name="Away" Foreground="Orange" >Away</TextBlock>
+                    </StackPanel>
+                </ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+    </Grid>
+</Window>

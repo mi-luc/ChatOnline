@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="da05958a18ee47d38ebbe892fbcb6579" Name="Diagram1" ZoomLevel="46">
+        <EntityTypeShape EntityType="Chat_OnlineModel.Friend" Width="1.5" PointX="3" PointY="7.25" />
+        <EntityTypeShape EntityType="Chat_OnlineModel.Group" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Chat_OnlineModel.Message" Width="1.5" PointX="6" PointY="4.25" />
+        <EntityTypeShape EntityType="Chat_OnlineModel.User" Width="1.5" PointX="0.75" PointY="4.125" />
+        <EntityTypeShape EntityType="Chat_OnlineModel.UsersInGroup" Width="1.5" PointX="3" PointY="3.75" />
+        <EntityTypeShape EntityType="Chat_OnlineModel.database_firewall_rules" Width="1.5" PointX="2.75" PointY="0.875" />
+        <AssociationConnector Association="Chat_OnlineModel.FK__Friends__Friend1__73BA3083" />
+        <AssociationConnector Association="Chat_OnlineModel.FK__Friends__Friend1__7D439ABD" />
+        <AssociationConnector Association="Chat_OnlineModel.FK__Friends__Friend2__74AE54BC" />
+        <AssociationConnector Association="Chat_OnlineModel.FK__Friends__Friend2__7E37BEF6" />
+        <AssociationConnector Association="Chat_OnlineModel.FK__Messages__GroupI__0C85DE4D" />
+        <AssociationConnector Association="Chat_OnlineModel.FK__UsersInGr__Group__0F624AF8" />
+        <AssociationConnector Association="Chat_OnlineModel.FK__Messages__User_I__0A9D95DB" />
+        <AssociationConnector Association="Chat_OnlineModel.FK__Messages__User_I__0B91BA14" />
+        <AssociationConnector Association="Chat_OnlineModel.FK__UsersInGr__UserI__10566F31" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,32 @@
+﻿<Window x:Class="ChatEntityFramework.create_group"
+    
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatEntityFramework"
+        mc:Ignorable="d"
+        Title="create_group" Height="200" Width="500">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/mainMenu_Wallpaper.jpg"/>
+        </Grid.Background>
+        <StackPanel Margin="68,100,42,10">
+            <ComboBox x:Name="FriendList" Text="Choose friend"  Background="#FF4D4B4B" BorderBrush="#FF4D4B4B" OpacityMask="Black" SelectionChanged="FriendList_SelectionChanged"/>
+        </StackPanel>
+        <Button x:Name ="CreateGroup" Content="Create Group" Margin="208,52,182,100" RenderTransformOrigin="0.482,-0.164" Background="#292B2F" Foreground="White" BorderThickness="0" Click="CreateGroup_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <TextBox x:Name ="GroupName" HorizontalAlignment="Left" Margin="203,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="27" Style="{StaticResource GroupNameBox}">
+            <TextBox.Resources>
+                <Style TargetType="Border" >
+                    <Setter Property="CornerRadius" Value="5" />
+                </Style>
+            </TextBox.Resources>
+        </TextBox>
+    </Grid>
+</Window>

@@ -1,0 +1,137 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="ListViewItem" x:Key="Contact">
+        <Style.Triggers>
+            <!--<Trigger Property="IsSelected" Value="True">
+                <Setter Property="Background" Value="#292b2F"/>
+            </Trigger>-->
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="1">
+                <Setter x:Name="CuloareBind" Property="Background" Value="#292b2F" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="2">
+                <Setter x:Name="CuloareBind1" Property="Background" Value="#345345" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="3">
+                <Setter x:Name="CuloareBind2" Property="Background" Value="Firebrick" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="4">
+                <Setter x:Name="CuloareBind3" Property="Background" Value="#765" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="5">
+                <Setter x:Name="CuloareBind4" Property="Background" Value="DarkGoldenrod" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="6">
+                <Setter x:Name="CuloareBind5" Property="Background" Value="#234236" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="7">
+                <Setter x:Name="CuloareBind6" Property="Background" Value="#891" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="8">
+                <Setter x:Name="CuloareBind7" Property="Background" Value="#143" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="9">
+                <Setter x:Name="CuloareBind8" Property="Background" Value="#111" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="10">
+                <Setter x:Name="CuloareBind9" Property="Background" Value="#195" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="11">
+                <Setter x:Name="CuloareBinda" Property="Background" Value="#273" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="12">
+                <Setter x:Name="CuloareBindb" Property="Background" Value="#102" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="13">
+                <Setter x:Name="CuloareBindc" Property="Background" Value="#777" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="14">
+                <Setter x:Name="CuloareBindd" Property="Background" Value="#888" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="15">
+                <Setter x:Name="CuloareBinde" Property="Background" Value="#919" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="16">
+                <Setter x:Name="CuloareBindf" Property="Background" Value="#987" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="17">
+                <Setter x:Name="CuloareBindg" Property="Background" Value="#961" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="18">
+                <Setter x:Name="CuloareBindh" Property="Background" Value="#464" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="19">
+                <Setter x:Name="CuloareBindi" Property="Background" Value="#817" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="20">
+                <Setter x:Name="CuloareBindj" Property="Background" Value="#641" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="21">
+                <Setter x:Name="CuloareBindk" Property="Background" Value="#117" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="22">
+                <Setter x:Name="CuloareBindl" Property="Background" Value="#124" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="23">
+                <Setter x:Name="CuloareBindm" Property="Background" Value="#139" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="24">
+                <Setter x:Name="CuloareBindn" Property="Background" Value="#239" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="25">
+                <Setter x:Name="CuloareBindo" Property="Background" Value="#871" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="26">
+                <Setter x:Name="CuloareBindp" Property="Background" Value="#432" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="27">
+                <Setter x:Name="CuloareBindq" Property="Background" Value="#721" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="28">
+                <Setter x:Name="CuloareBindr" Property="Background" Value="#790" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="29">
+                <Setter x:Name="CuloareBinds" Property="Background" Value="#615" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="30">
+                <Setter x:Name="CuloareBindt" Property="Background" Value="#922" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="31">
+                <Setter x:Name="CuloareBindu" Property="Background" Value="#200" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding Path=User_ID_Sender}" Value="32">
+                <Setter x:Name="CuloareBindv" Property="Background" Value="#402" />
+            </DataTrigger>
+        </Style.Triggers>
+        <Setter Property="Background" Value="#393B40"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ListViewItem">
+                    <Border Background="{TemplateBinding Background}"
+                            Height="50"
+                            CornerRadius="4"
+                            Margin="8,2,8,2">
+                        <StackPanel Orientation="Horizontal"
+                                Margin="10,0,0,0">
+
+                            <Ellipse Height="30" Width="30">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="{Binding m_imageSource}"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                            <StackPanel>
+                                <Label Content="{Binding m_username}"
+                                       Foreground="White"/>
+                                <Label Content="{Binding LastMessage}"
+                                       Foreground="White"
+                                       FontSize="10"/>
+                                <Label Content="{Binding Payload_Text}"
+                                       Foreground="White"
+                                       FontSize="13"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

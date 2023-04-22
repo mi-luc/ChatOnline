@@ -1,0 +1,217 @@
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\bin\Debug\ChatEntityFramework.exe.config
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\bin\Debug\ChatEntityFramework.exe
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\bin\Debug\ChatEntityFramework.pdb
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.dll
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.xml
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.AssemblyReference.cache
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.SuggestedBindingRedirects.cache
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainWindow.g.cs
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\App.g.cs
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework_Content.g.cs
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework_MarkupCompile.cache
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework_MarkupCompile.lref
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainWindow.baml
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.g.resources
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.Properties.Resources.resources
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.GenerateResource.cache
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.CopyComplete
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.exe
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.pdb
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\LoginWindow.g.cs
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainMenu.g.cs
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\RegisterWindow.g.cs
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\LoginWindow.baml
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainMenu.baml
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\RegisterWindow.baml
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\changeStare.g.cs
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\PersonalChatWindow.g.cs
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\changeStare.baml
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\PersonalChatWindow.baml
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\ContactWindow.baml
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainChatInterfaceWindow.baml
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\MessageBox.baml
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\Template_PasswordKey.baml
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\App.baml
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\AddFriend.g.cs
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\create_group.g.cs
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\AddFriend.baml
+C:\Users\Radu\source\repos\ChatEntityFramework\ChatEntityFramework\obj\Debug\create_group.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\bin\Debug\ChatEntityFramework.exe.config
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\bin\Debug\ChatEntityFramework.exe
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\bin\Debug\ChatEntityFramework.pdb
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.dll
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.xml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.AssemblyReference.cache
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\ContactWindow.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainChatInterfaceWindow.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\MessageBox.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\Template_PasswordKey.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\AddFriend.g.cs
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\changeStare.g.cs
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\create_group.g.cs
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\LoginWindow.g.cs
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainMenu.g.cs
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainWindow.g.cs
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\PersonalChatWindow.g.cs
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\RegisterWindow.g.cs
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\App.g.cs
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework_Content.g.cs
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework_MarkupCompile.cache
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework_MarkupCompile.lref
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\App.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\AddFriend.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\changeStare.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\create_group.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\LoginWindow.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainMenu.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainWindow.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\PersonalChatWindow.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\RegisterWindow.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.g.resources
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.Properties.Resources.resources
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.GenerateResource.cache
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.CoreCompileInputs.cache
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.exe
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.pdb
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\UsernameEnter.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.SuggestedBindingRedirects.cache
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.CopyComplete
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\GroupName.baml
+D:\visual studio fisiere\ChatEntityFramework\ChatEntityFramework\obj\Debug\MyConverter.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\bin\Debug\ChatEntityFramework.exe.config
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\bin\Debug\ChatEntityFramework.exe
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\bin\Debug\ChatEntityFramework.pdb
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.dll
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.xml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.AssemblyReference.cache
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.SuggestedBindingRedirects.cache
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\ContactWindow.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\GroupName.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainChatInterfaceWindow.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\MessageBox.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\MyConverter.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\Template_PasswordKey.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\UsernameEnter.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\AddFriend.g.cs
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\changeStare.g.cs
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\create_group.g.cs
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\LoginWindow.g.cs
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainMenu.g.cs
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainWindow.g.cs
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\PersonalChatWindow.g.cs
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\RegisterWindow.g.cs
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\App.g.cs
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework_Content.g.cs
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework_MarkupCompile.cache
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework_MarkupCompile.lref
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\App.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\AddFriend.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\changeStare.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\create_group.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\LoginWindow.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainMenu.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainWindow.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\PersonalChatWindow.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\RegisterWindow.baml
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.g.resources
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.Properties.Resources.resources
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.GenerateResource.cache
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.CopyComplete
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.exe
+C:\Users\Radu\Desktop\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.pdb
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\bin\Debug\ChatEntityFramework.exe.config
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\bin\Debug\ChatEntityFramework.exe
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\bin\Debug\ChatEntityFramework.pdb
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.dll
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.xml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.AssemblyReference.cache
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\ContactWindow.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\GroupName.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainChatInterfaceWindow.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\MessageBox.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\MyConverter.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\Template_PasswordKey.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\UsernameEnter.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\AddFriend.g.cs
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\changeStare.g.cs
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\create_group.g.cs
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\LoginWindow.g.cs
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainMenu.g.cs
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainWindow.g.cs
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\PersonalChatWindow.g.cs
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\RegisterWindow.g.cs
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\App.g.cs
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework_Content.g.cs
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework_MarkupCompile.cache
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework_MarkupCompile.lref
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\App.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\AddFriend.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\changeStare.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\create_group.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\LoginWindow.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainMenu.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainWindow.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\PersonalChatWindow.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\RegisterWindow.baml
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.g.resources
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.Properties.Resources.resources
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.GenerateResource.cache
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.CoreCompileInputs.cache
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.exe
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.pdb
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.SuggestedBindingRedirects.cache
+D:\FACULTATE\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.CopyComplete
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\bin\Debug\ChatEntityFramework.exe.config
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\bin\Debug\ChatEntityFramework.exe
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\bin\Debug\ChatEntityFramework.pdb
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.dll
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.xml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.AssemblyReference.cache
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.SuggestedBindingRedirects.cache
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\ContactWindow.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\GroupName.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainChatInterfaceWindow.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\MessageBox.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\MyConverter.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\Template_PasswordKey.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\UsernameEnter.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\AddFriend.g.cs
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\changeStare.g.cs
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\create_group.g.cs
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\LoginWindow.g.cs
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainMenu.g.cs
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainWindow.g.cs
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\PersonalChatWindow.g.cs
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\RegisterWindow.g.cs
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\App.g.cs
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework_Content.g.cs
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework_MarkupCompile.cache
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework_MarkupCompile.lref
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\App.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\AddFriend.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\changeStare.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\create_group.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\LoginWindow.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainMenu.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\MainWindow.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\PersonalChatWindow.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\RegisterWindow.baml
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.g.resources
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.Properties.Resources.resources
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.GenerateResource.cache
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.csproj.CopyComplete
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.exe
+C:\Users\Radu\Downloads\ChatEntityFramework\ChatEntityFramework\obj\Debug\ChatEntityFramework.pdb

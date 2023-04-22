@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Chat_OnlineModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Chat_OnlineEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Friends" EntityType="Chat_OnlineModel.Friend" />
+    <EntitySet Name="Groups" EntityType="Chat_OnlineModel.Group" />
+    <EntitySet Name="Messages" EntityType="Chat_OnlineModel.Message" />
+    <EntitySet Name="Users" EntityType="Chat_OnlineModel.User" />
+    <EntitySet Name="UsersInGroups" EntityType="Chat_OnlineModel.UsersInGroup" />
+    <EntitySet Name="database_firewall_rules" EntityType="Chat_OnlineModel.database_firewall_rules" />
+    <AssociationSet Name="FK__Friends__Friend1__73BA3083" Association="Chat_OnlineModel.FK__Friends__Friend1__73BA3083">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Friend" EntitySet="Friends" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Friends__Friend1__7D439ABD" Association="Chat_OnlineModel.FK__Friends__Friend1__7D439ABD">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Friend" EntitySet="Friends" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Friends__Friend2__74AE54BC" Association="Chat_OnlineModel.FK__Friends__Friend2__74AE54BC">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Friend" EntitySet="Friends" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Friends__Friend2__7E37BEF6" Association="Chat_OnlineModel.FK__Friends__Friend2__7E37BEF6">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Friend" EntitySet="Friends" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Messages__GroupI__0C85DE4D" Association="Chat_OnlineModel.FK__Messages__GroupI__0C85DE4D">
+      <End Role="Group" EntitySet="Groups" />
+      <End Role="Message" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UsersInGr__Group__0F624AF8" Association="Chat_OnlineModel.FK__UsersInGr__Group__0F624AF8">
+      <End Role="Group" EntitySet="Groups" />
+      <End Role="UsersInGroup" EntitySet="UsersInGroups" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Messages__User_I__0A9D95DB" Association="Chat_OnlineModel.FK__Messages__User_I__0A9D95DB">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Message" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Messages__User_I__0B91BA14" Association="Chat_OnlineModel.FK__Messages__User_I__0B91BA14">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Message" EntitySet="Messages" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UsersInGr__UserI__10566F31" Association="Chat_OnlineModel.FK__UsersInGr__UserI__10566F31">
+      <End Role="User" EntitySet="Users" />
+      <End Role="UsersInGroup" EntitySet="UsersInGroups" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Friend">
+    <Key>
+      <PropertyRef Name="FriendEntryID" />
+    </Key>
+    <Property Name="FriendEntryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Friend1ID" Type="Int32" Nullable="false" />
+    <Property Name="Friend2ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="Chat_OnlineModel.FK__Friends__Friend1__73BA3083" FromRole="Friend" ToRole="User" />
+    <NavigationProperty Name="User1" Relationship="Chat_OnlineModel.FK__Friends__Friend1__7D439ABD" FromRole="Friend" ToRole="User" />
+    <NavigationProperty Name="User2" Relationship="Chat_OnlineModel.FK__Friends__Friend2__74AE54BC" FromRole="Friend" ToRole="User" />
+    <NavigationProperty Name="User3" Relationship="Chat_OnlineModel.FK__Friends__Friend2__7E37BEF6" FromRole="Friend" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="GroupID" />
+    </Key>
+    <Property Name="GroupID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GroupName" Type="String" Nullable="false" MaxLength="64" FixedLength="false" Unicode="true" />
+    <Property Name="TimeCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Messages" Relationship="Chat_OnlineModel.FK__Messages__GroupI__0C85DE4D" FromRole="Group" ToRole="Message" />
+    <NavigationProperty Name="UsersInGroups" Relationship="Chat_OnlineModel.FK__UsersInGr__Group__0F624AF8" FromRole="Group" ToRole="UsersInGroup" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="MessageID" />
+    </Key>
+    <Property Name="MessageID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="User_ID_Sender" Type="Int32" Nullable="false" />
+    <Property Name="User_ID_Receiver" Type="Int32" Nullable="false" />
+    <Property Name="Payload_Text" Type="String" Nullable="false" MaxLength="2048" FixedLength="false" Unicode="true" />
+    <Property Name="Time_sent" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Seen" Type="Boolean" Nullable="false" />
+    <Property Name="GroupID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Group" Relationship="Chat_OnlineModel.FK__Messages__GroupI__0C85DE4D" FromRole="Message" ToRole="Group" />
+    <NavigationProperty Name="User" Relationship="Chat_OnlineModel.FK__Messages__User_I__0A9D95DB" FromRole="Message" ToRole="User" />
+    <NavigationProperty Name="User1" Relationship="Chat_OnlineModel.FK__Messages__User_I__0B91BA14" FromRole="Message" ToRole="User" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="64" FixedLength="false" Unicode="true" />
+    <Property Name="Passw" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="Details" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="LastSeen" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Friends" Relationship="Chat_OnlineModel.FK__Friends__Friend1__73BA3083" FromRole="User" ToRole="Friend" />
+    <NavigationProperty Name="Friends1" Relationship="Chat_OnlineModel.FK__Friends__Friend1__7D439ABD" FromRole="User" ToRole="Friend" />
+    <NavigationProperty Name="Friends2" Relationship="Chat_OnlineModel.FK__Friends__Friend2__74AE54BC" FromRole="User" ToRole="Friend" />
+    <NavigationProperty Name="Friends3" Relationship="Chat_OnlineModel.FK__Friends__Friend2__7E37BEF6" FromRole="User" ToRole="Friend" />
+    <NavigationProperty Name="Messages" Relationship="Chat_OnlineModel.FK__Messages__User_I__0A9D95DB" FromRole="User" ToRole="Message" />
+    <NavigationProperty Name="Messages1" Relationship="Chat_OnlineModel.FK__Messages__User_I__0B91BA14" FromRole="User" ToRole="Message" />
+    <NavigationProperty Name="UsersInGroups" Relationship="Chat_OnlineModel.FK__UsersInGr__UserI__10566F31" FromRole="User" ToRole="UsersInGroup" />
+  </EntityType>
+  <EntityType Name="UsersInGroup">
+    <Key>
+      <PropertyRef Name="UIGID" />
+    </Key>
+    <Property Name="UIGID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GroupID" Type="Int32" />
+    <Property Name="UserID" Type="Int32" />
+    <NavigationProperty Name="Group" Relationship="Chat_OnlineModel.FK__UsersInGr__Group__0F624AF8" FromRole="UsersInGroup" ToRole="Group" />
+    <NavigationProperty Name="User" Relationship="Chat_OnlineModel.FK__UsersInGr__UserI__10566F31" FromRole="UsersInGroup" ToRole="User" />
+  </EntityType>
+  <EntityType Name="database_firewall_rules">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="name" />
+      <PropertyRef Name="start_ip_address" />
+      <PropertyRef Name="end_ip_address" />
+      <PropertyRef Name="create_date" />
+      <PropertyRef Name="modify_date" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="start_ip_address" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="end_ip_address" Type="String" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="create_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="modify_date" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <Association Name="FK__Friends__Friend1__73BA3083">
+    <End Type="Chat_OnlineModel.User" Role="User" Multiplicity="1" />
+    <End Type="Chat_OnlineModel.Friend" Role="Friend" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Friend">
+        <PropertyRef Name="Friend1ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Friends__Friend1__7D439ABD">
+    <End Type="Chat_OnlineModel.User" Role="User" Multiplicity="1" />
+    <End Type="Chat_OnlineModel.Friend" Role="Friend" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Friend">
+        <PropertyRef Name="Friend1ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Friends__Friend2__74AE54BC">
+    <End Type="Chat_OnlineModel.User" Role="User" Multiplicity="1" />
+    <End Type="Chat_OnlineModel.Friend" Role="Friend" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Friend">
+        <PropertyRef Name="Friend2ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Friends__Friend2__7E37BEF6">
+    <End Type="Chat_OnlineModel.User" Role="User" Multiplicity="1" />
+    <End Type="Chat_OnlineModel.Friend" Role="Friend" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Friend">
+        <PropertyRef Name="Friend2ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Messages__GroupI__0C85DE4D">
+    <End Type="Chat_OnlineModel.Group" Role="Group" Multiplicity="1" />
+    <End Type="Chat_OnlineModel.Message" Role="Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="GroupID" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="GroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UsersInGr__Group__0F624AF8">
+    <End Type="Chat_OnlineModel.Group" Role="Group" Multiplicity="0..1" />
+    <End Type="Chat_OnlineModel.UsersInGroup" Role="UsersInGroup" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="GroupID" />
+      </Principal>
+      <Dependent Role="UsersInGroup">
+        <PropertyRef Name="GroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Messages__User_I__0A9D95DB">
+    <End Type="Chat_OnlineModel.User" Role="User" Multiplicity="1" />
+    <End Type="Chat_OnlineModel.Message" Role="Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="User_ID_Sender" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Messages__User_I__0B91BA14">
+    <End Type="Chat_OnlineModel.User" Role="User" Multiplicity="1" />
+    <End Type="Chat_OnlineModel.Message" Role="Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="User_ID_Receiver" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UsersInGr__UserI__10566F31">
+    <End Type="Chat_OnlineModel.User" Role="User" Multiplicity="0..1" />
+    <End Type="Chat_OnlineModel.UsersInGroup" Role="UsersInGroup" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="UsersInGroup">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
